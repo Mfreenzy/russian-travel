@@ -1,0 +1,15 @@
+.place__website_url-heading {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    filter: drop-shadow(0 4px 4px #000000);
+    color: #AAAAAA;
+    font-family: 'Inter', Helvetica, sans-serif;
+}
+
+@media screen and (max-width:767px) {
+    .place__website_url-heading {
+        margin:0;
+    }
+}

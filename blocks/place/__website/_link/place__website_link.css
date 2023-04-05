@@ -1,0 +1,20 @@
+.place__website_link {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-family: 'Inter', Helvetica, sans-serif;
+    opacity: 1;
+}
+
+.place__website_link:hover {
+    transition: opacity 2s ease-in-out;
+    opacity: 0.5;
+    color:#E5E5E5
+}
+
+@media screen and (max-width:767px) {
+    .place__website_link {
+        margin:0;
+    }
+}
