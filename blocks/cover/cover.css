@@ -1,4 +1,5 @@
 .cover {
+    text-decoration: none;
     background-image: url(../../images/cover__background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,15 +15,14 @@
     z-index: 0;
 }
 
-
 .cover::before {
-    content: '';
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
     right: 0;
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     opacity: 0.3;
     z-index: -1;
 }
@@ -35,24 +35,21 @@
 @media screen and (max-width: 1279px) {
     .cover {
         min-height: 640px;
-        margin:0 0 92px 0;
+        margin: 0 0 92px 0;
     }
-    
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
         min-height: 480px;
-        margin:0 0 88px 0;
+        margin: 0 0 88px 0;
     }
-    
 }
 
 @media screen and (max-width: 767px) {
     .cover {
         min-height: 200px;
-        margin:0 0 64px 0;
+        margin: 0 0 64px 0;
         background-size: contain;
     }
-    
 }

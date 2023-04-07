@@ -4,14 +4,13 @@
     font-weight: 800;
     margin: 0;
     padding: 0 0 40px 0;
-    color: #FFFFFF;
-    font-family: 'Inter', Helvetica, sans-serif;
+    color: #ffffff;
+    font-family: "Inter", Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 767px) {
     .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-    padding: 0 0 40px 0;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
